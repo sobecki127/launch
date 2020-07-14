@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>David Sobecki</title>
+  </head>
+
+  <body>
+    <section class="grid">
+      <header class="header">
+        <h1>Portfolio Launching Soon</h1>
+      </header>
+
+      <section class="launch-img">
+        <img src="images/rocket.svg" alt="" />
+      </section>
+
+      <section class="count-down">
+        <div class="count-down__field">
+          <span class="count-down__number" id="days">00</span>
+          <span class="count-down__unit">Days</span>
+        </div>
+        <div class="count-down__field">
+          <span class="count-down__number" id="hours">00</span>
+          <span class="count-down__unit">Hours</span>
+        </div>
+        <div class="count-down__field">
+          <span class="count-down__number" id="minutes">00</span>
+          <span class="count-down__unit">Minutes</span>
+        </div>
+        <div class="count-down__field">
+          <span class="count-down__number" id="seconds">00</span>
+          <span class="count-down__unit">Seconds</span>
+        </div>
+      </section>
+
+      <section class="launch-date">
+        <span class="launch-date__title">Launch Date</span>
+        <span class="launch-date__day">15</span>
+        <span class="launch-date__month">January</span>
+      </section>
+
+      <section class="contact">
+        <h2>Get in touch</h2>
+        <form class="contact__form">
+          <label class="contact__email-label" for="contact-email">Email</label>
+          <input
+            class="contact__email-input"
+            type="email"
+            id="contact-email"
+            required
+          />
+          <label class="contact__textarea-label" for="contact-message"
+            >Message</label
+          >
+          <textarea
+            class="contact__textarea"
+            name=""
+            id="contact-message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button class="contact__submit-btn">Submit</button>
+          <span>Your message was sent</span>
+        </form>
+      </section>
+
+      <section class="bio">
+        <h2 class="bio__title">David Sobecki</h2>
+        <p class="bio__description">
+          Thanks for your intrest in my portfolio. My code can be viewed on
+          github. You can stay up to date on my 100DaysOfCode challenge on
+          twitter. I'll be linkedIn soon!
+        </p>
+        <div class="bio__social">
+          <a href="#"><img src="images/github.svg" alt="" /></a>
+          <a href="#"><img src="images/twitter.svg" alt="" /></a>
+          <a href="#"><img src="images/linkedin.svg" alt="" /></a>
+        </div>
+        <a class="bio__email" href="#">admin@davidsobecki.com</a>
+      </section>
+    </section>
+    <!-- End grid -->
+    <script src="main.js"></script>
+  </body>
+</html>
